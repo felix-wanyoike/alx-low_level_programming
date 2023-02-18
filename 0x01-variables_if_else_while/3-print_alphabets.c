@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* printing the alphabet */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char c;
@@ -12,8 +16,8 @@ int main(void)
 	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(c);
-		putchar('\n');
 	}
+	putchar('\n');
 
 	return (0);
 }
